@@ -1,4 +1,7 @@
 {
     "authToken": "123456:ABC-DEF1234ghIkl-zyx57W2v1u123ew11",
-    "owner": 34509246
+    "owner": 34509246,
+    "zone": "9E82F4732C11EC6672959BD5E36D5",
+    "authkey": "175DEC54BBF9B7289FCC62CAC45C6",
+    "authemail": "my@mailadress.com"
 }
