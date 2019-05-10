@@ -292,9 +292,9 @@ bot.command("everything", function (msg, reply, next) {
      //here we have the full response, html or json object
      var obj = JSON.parse(body);
      if (obj.success === true) {
-        reply.html("Cache ist gelöscht. Kann bis zu 30 Sekunden dauern.");
+        reply.html("Cache is purged. Can take up to 30 seconds.");
      } else {
-        reply.html("Cache löschen fehlgeschlagen. Kontaktiere @digitalgeneralist");
+        reply.html("Purge failed.");
      }
 
     })
