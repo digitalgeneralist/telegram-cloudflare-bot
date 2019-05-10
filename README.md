@@ -27,6 +27,12 @@ The first time you run it, it will ask you some questions and create
 the configuration file automatically: `config.json`. You can also
 write it manually, see `config.example.json`.
 
+Add manually your Cloudflare API data to `config.json`.
+example:
+    "zone": "9E82F4732C11EC6672959BD5E36D5",
+    "authkey": "175DEC54BBF9B7289FCC62CAC45C6",
+    "authemail": "my@mailadress.com"
+
 When started it will print a `Bot ready.` message when it's up and running.
 For convenience, you might want to talk to the BotFather and set the
 command list to the contents of `commands.txt`.
